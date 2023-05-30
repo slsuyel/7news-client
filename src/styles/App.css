@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap");
+
+* {
+  font-family: "Tiro Bangla", serif;
+  text-decoration: none;
+}
+
+.sidebar-img {
+  width: 133px;
+  height: 80px !important;
+  max-width: 80px;
+}
+.add-bnr {
+  height: 344px;
+  width: 242px;
+  border-radius: 4px;
+}
+
+.news-left-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+img.specialnews-img {
+  width: 260px;
+  height: 160px;
+}
+.image-link {
+  position: relative;
+  display: inline-block;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 4px;
+  padding-bottom: 0;
+  background-color: #00000080;
+  color: white;
+  font-size: 14px;
+}
+
+.news-thumb {
+  width: 133px;
+  height: 80px;
+}
+p.n-title {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.btn-Last-popular {
+  background: #2c4b9c;
+  color: white;
+  border: none;
+  width: 50%;
+  padding: 3px;
+}
+.btn-normal {
+  border: 0;
+  border-bottom: 2px solid #2c4b9c;
+}
+
+.social div i {
+  transition: opacity 0.3s ease;
+}
+
+.social div i:hover {
+  opacity: 0.7;
+  font-size: 33px;
+  cursor: pointer;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.h80 {
+  height: 80px;
+}
+@media (max-width: 576px) {
+  .category-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .news-left-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .none {
+    display: none;
+  }
+  .h80 {
+    height: auto;
+  }
+  .md-img {
+    max-width: 100%;
+  }
+}
+
+.styles_ticker__-0UvZ {
+  background-color: #e3e7f3 !important;
+}
+
+.news-ticket {
+  width: 100px;
+}
+.ticker-link:hover {
+  color: #1552ed !important;
+}
+a:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.195) !important;
+  padding-bottom: 1px ;
+}
